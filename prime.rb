@@ -14,5 +14,5 @@ def prime?(number)
   i = number - 1
   j = 2
   while i >= j
-    while j <= i 
+    while j <= i
       
