@@ -15,6 +15,7 @@ def prime?(number)
   i = 2
   while i < 11
     if (i == number)
+      nil
     else
       itVal = number % i
       if (itVal == 0)
