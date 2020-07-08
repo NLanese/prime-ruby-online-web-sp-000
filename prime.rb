@@ -14,7 +14,7 @@ def prime?(number)
   end
   i = 2
   while i < 11
-    itVal = number % i 
+    itVal = number % i
     if (itVal == 0)
       return false
     end
