@@ -2,30 +2,17 @@ def prime?(number)
   if (number < 0)
     return false
   end
-  if (number == 2)
-    return true
+  if (number == 1)
+    return false
   end
   if (number == 0)
     return false
   end
-  if (number == 1)
-    return false
-  end
-  counter = 0
-  i = 1
-  j = 1
-  while i < number
-    while j < number
-      if ((i * j) == number)
-        counter = counter + 1
-      end
-      j = j + 1
-    end
-    i = i + 1
-  end
-  if (counter >= 3)
-    return false
-  else
+  if (number == 2)
     return true
   end
-end
+  i = number - 1
+  j = 2
+  while i >= j
+    while j <= i 
+      
