@@ -24,5 +24,5 @@ def prime?(number)
     end
     i = i + 1
   end
-  return false
+  return true
 end
