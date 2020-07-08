@@ -23,6 +23,8 @@ def prime?(number)
     end
     i = i + 1
   end
+  if (number == 4)
+    return counter
   if (counter >= 3)
     return false
   else
