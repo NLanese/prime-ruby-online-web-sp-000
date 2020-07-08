@@ -12,8 +12,8 @@ def prime?(number)
     return false
   end
   counter = 0
-  i = 0
-  j = 0
+  i = 1
+  j = 1
   while i < number
     while j < number
       if ((i * j) == number)
