@@ -26,8 +26,7 @@ def prime?(number)
   end
   if (counter > 1)
     return false
-  else 
+  else
     return true
   end
 end
-
