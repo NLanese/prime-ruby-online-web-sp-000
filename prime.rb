@@ -5,6 +5,9 @@ def prime?(number)
   if (number == 2)
     return true
   end
+  if (number == 0)
+    return false
+  end
   counter = 0
   i = 0
   j = 0
