@@ -1,4 +1,5 @@
 def prime?(number)
+  counter = 0
   if (number < 0)
     return false
   end
@@ -15,4 +16,4 @@ def prime?(number)
   j = 2
   while i >= j
     while j <= i
-      
+      if 
