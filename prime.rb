@@ -11,7 +11,7 @@ def prime?(number)
     end
     i = i + 1
   end
-  if (counter >= 3)
+  if (counter >= 2)
     return false
   else
     return true
