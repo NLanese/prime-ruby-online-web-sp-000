@@ -12,17 +12,14 @@ def prime?(number)
   if (number == 2)
     return true
   end
-  i = 2
-  while i < 11
-    if (i == number)
-      nil
-    else
-      itVal = number % i
-      if (itVal == 0)
-        return false
-      end
+  i = number - 1
+  while i > 1 do
+    itVal = number % i
+    if (itVal == 0)
+      return false
     end
-    i = i + 1
+    i = i - 1
   end
   return true
 end
+  
