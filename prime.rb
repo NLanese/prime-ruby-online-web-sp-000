@@ -14,9 +14,12 @@ def prime?(number)
   end
   i = 2
   while i < 11
-    itVal = number % i
-    if (itVal == 0)
-      return false
+    if (i == number)
+    else
+      itVal = number % i
+      if (itVal == 0)
+        return false
+      end
     end
     i = i + 1
   end
