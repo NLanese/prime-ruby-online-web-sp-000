@@ -8,6 +8,9 @@ def prime?(number)
   if (number == 0)
     return false
   end
+  if (number == 1)
+    return false
+  end
   counter = 0
   i = 0
   j = 0
