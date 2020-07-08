@@ -14,8 +14,8 @@ def prime?(number)
   end
   i = number - 1
   j = 2
-  while i >= j
-    while j <= i
+  while i >= j do
+    while j <= i do
       itVal = i * j
       if itVal == number
         counter = counter + 1
