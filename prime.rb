@@ -16,4 +16,4 @@ def prime?(number)
   j = 2
   while i >= j
     while j <= i
-      if 
+      if
